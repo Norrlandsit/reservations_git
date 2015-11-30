@@ -77,7 +77,7 @@ function general_settings_reservations_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'room_reservations_picker_format';
-  $strongarm->value = 'y/m/d';
+  $strongarm->value = 'd/m/y';
   $export['room_reservations_picker_format'] = $strongarm;
 
   $strongarm = new stdClass();
